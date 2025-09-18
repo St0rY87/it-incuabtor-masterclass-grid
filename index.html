@@ -1,22 +1,27 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>GRID</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>GRID</title>
+</head>
+
+<body>
+    <div class="grid-app">
         <header class="header">
             <a class="header__link" href="https://it-incubator.by/">
                 <img class="header__logo" src="./assets/images/logo.svg" alt="Logo">
             </a>
             <nav class="header__navigation">
                 <ul class="header__menu">
-                    <li class="header__menu-item"><a class="header__menu-link header__menu-link_active" href="#">Сalculator</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link header__menu-link_active"
+                            href="#">Сalculator</a></li>
                     <li class="header__menu-item"><a class="header__menu-link" href="#">Calendar</a></li>
                     <li class="header__menu-item"><a class="header__menu-link" href="#">Weather</a></li>
                 </ul>
@@ -34,7 +39,7 @@
             </div>
             <span class="text">Select your calculator</span>
             <div class="options">
-                <button  class="options__button options__button_active">123</button>
+                <button class="options__button options__button_active">123</button>
                 <button class="options__button">
                     <img src="./assets/images/chart.svg" alt="Chart icon">
                 </button>
@@ -74,7 +79,7 @@
                 <button class="calculator__button">4</button>
                 <button class="calculator__button">5</button>
                 <button class="calculator__button">6</button>
-                <button class="calculator__button-operation">
+                <button class="calculator__button-operation plus">
                     <img src="./assets/images/plus.svg" alt="Plus icon">
                 </button>
                 <button class="calculator__button-operation">
@@ -99,5 +104,7 @@
         <footer>
             <a href="https://it-incubator.by">it-incubator.by</a>
         </footer>
-    </body>
+    </div>
+</body>
+
 </html>
